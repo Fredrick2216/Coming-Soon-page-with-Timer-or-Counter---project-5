@@ -1,0 +1,58 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+  text-align: center;
+}
+
+.container {
+  max-width: 600px;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+/* Countdown Layout */
+#countdown {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.time-box {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 12px;
+  min-width: 90px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+.time-box span {
+  font-size: 2.5rem;
+  font-weight: bold;
+  display: block;
+}
+
+.time-box p {
+  margin-top: 5px;
+  font-size: 1rem;
+}
